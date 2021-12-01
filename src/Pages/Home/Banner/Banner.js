@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import image from '../../../images/wave.svg';
 import personalimage from '../../../images/2.jpg';
-
+import './Banner.css'
 import { Typewriter } from 'react-simple-typewriter'
 
 const Banner = () => {
@@ -34,7 +34,10 @@ const Banner = () => {
                         
                     </Col>
                     <Col className="mb-5" md={4} sm={12}>
-                        <img className="w-75 " src={personalimage} alt="" srcset="" />
+                        
+                        <div className="myimage">
+                        <img className="w-75" src={personalimage} alt="" srcset="" />
+                        </div>
                     </Col>
                 </Row>
             </Container>

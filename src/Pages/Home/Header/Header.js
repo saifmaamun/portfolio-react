@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand to="/home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="#home" className="fw-bold fs-4 text-warning">Saif Maamun</Navbar.Brand>
                 <div class="">
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>

@@ -1,0 +1,4 @@
+.aboutmeimage:hover{
+    transform: rotate(-15deg);
+     transition:transform 2s;
+}
