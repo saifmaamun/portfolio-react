@@ -11,6 +11,7 @@ const Header = () => {
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#aboutme">About Me</Nav.Link>
                         <Nav.Link href="#myprojects">My Projects</Nav.Link>
+                        <Nav.Link href="#contact">Contact Me</Nav.Link>
                         <Button className="btn btn-warning">
                             <a className="text-decoration-none text-dark fw-bold" href="https://drive.google.com/file/d/16TyxSSp_YmKQb7YsP0_vpOSdmI9x_ejg/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a>
                         </Button>
