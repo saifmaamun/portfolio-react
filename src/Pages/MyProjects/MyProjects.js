@@ -8,6 +8,7 @@ const MyProjects = () => {
     return (
         <Container fluid id='myprojects' className="bg-dark py-5">
             <Container>
+                <h1 className="text-light fw-bold my-2 py-2">MY PROJECTS</h1>
                 <Row>
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
                         <h3>Wheels</h3>

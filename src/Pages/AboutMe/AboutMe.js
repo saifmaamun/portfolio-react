@@ -7,7 +7,7 @@ const AboutMe = () => {
     return (
         <Container id="aboutme" fluid className="bg-dark py-5">
 
-            <h1 className="text-light fw-bold my-2 py-2">ABOUT ME</h1>
+            <h1 className="text-light fw-bold container my-2 py-2">ABOUT ME</h1>
             <Container className="aboutmeimage bg-warning my-3 p-5 my-5" >
                 <Row>
                     <Col xs={12} md={8} sm={12} className="text-start py-2 my-auto">
