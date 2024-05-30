@@ -6,9 +6,10 @@ import './Banner.css'
 import { Typewriter } from 'react-simple-typewriter'
 
 const Banner = () => {
-   
+
     return (
-        <Container fluid className="pt-5 myimage pb-3 bg-dark" style={{ backgroundImage: `url(${image}`, backgroundRepeat: "no-repeat",
+        <Container fluid className="pt-5 myimage pb-3 bg-dark" style={{
+            backgroundImage: `url(${image}`, backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
         }}>
             <Container className="pt-5 text-light">
@@ -20,7 +21,7 @@ const Banner = () => {
                             <span style={{ color: 'gray', fontWeight: 'bold' }}>
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
-                                    words={['FrontEnd Web Developer', 'React Developer']}
+                                    words={['FrontEnd Web Developer', 'React Developer', 'MERN Stack Developer',]}
                                     loop
                                     cursor
                                     cursorStyle='|'
@@ -29,14 +30,14 @@ const Banner = () => {
                                     delaySpeed={1000}
                                 />
                             </span>
-                                
+
                         </h2>
-                        
+
                     </Col>
                     <Col className="mb-5" md={4} sm={12}>
-                        
+
                         <div >
-                        <img className="w-75" src={personalimage} alt="" srcset="" />
+                            <img className="w-75" src={personalimage} alt="" srcset="" />
                         </div>
                     </Col>
                 </Row>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import audi from '../../images/rsz_1audi.png';
+import donate from '../../images/donation camp.png'
+import power from '../../images/powervision.png';
 import tour from '../../images/rsz_tour.png';
 import tooth from '../../images/rsz_tooth.png';
 
@@ -11,61 +12,93 @@ const MyProjects = () => {
                 <h1 className="text-light fw-bold my-2 py-2">MY PROJECTS</h1>
                 <Row>
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
-                        <h3>Wheels</h3>
+                        <h3>Donation Camp</h3>
                         <ul>
                             <li>
-                                Its an website of various cars.
+                                A Charity Website where user can search and donate various sector.
+
+
                             </li>
                             <li>
-                                Users can select and add Cars to their cart.
+                                A Fully Functional and Responsive for all kind of devices.
+
                             </li>
                             <li>
-                                Firebase authrntication enable.
+                                Customized Authentication with Next Auth and Private Routing enable.
+
                             </li>
                             <li>
-                                Admin and User have different UI.
+                                User Role Based Actions
+
                             </li>
                             <li>
-                                Dynamic data.
+                                Separate User and Admin role.
                             </li>
-                            
+                            <li>
+
+                                Basic CRUD Operation.
+                            </li>
+                            <li>
+                                Admin can delete, add any products, review, and order by others. Can make Admin.
+
+                            </li>
+                            <li>
+
+                                Added Pie Chart, Bar Chart for Better Data Visualization.
+                            </li>
+
                             <div className="pt-3">
-                                <a className="btn me-3 btn-dark fw-bold" href="https://audi-car-7165b.web.app/" target="_blank" rel="noopener noreferrer"><i class="fab fa-chrome text-warning"></i></a>
-                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/wheels-client" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt  text-warning"></i></a>
-                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/wheels-server" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-warning"></i></a>
-                                </div>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://donation-camp-client.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fab fa-chrome text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/donation-camp-client" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt  text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/donation-nextJS" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-warning"></i></a>
+                            </div>
                         </ul>
 
                     </Col>
                     <Col md={4} sm={6} XS={12}>
-                        <img className="w-100" src={audi} alt="" srcset="" />
+                        <img className="w-100" src={donate} alt="" srcset="" />
                     </Col>
                     <Col md={4} sm={6} XS={12}>
-                        <img className="w-100" src={tour} alt="" srcset="" />
+                        <img className="w-100" src={power} alt="" srcset="" />
                     </Col>
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
-                        <h3>Tour The World</h3>
+                        <h3>Power Vision</h3>
                         <ul>
                             <li>
-                                Its an website based on idea of Tourism.
+                                Fully build using Redux.
                             </li>
                             <li>
-                                Users can select and add various tourist spots to their cart.
+                                Custom Login Signup.
                             </li>
                             <li>
-                                User can add or remove desired tourist spot from their added list.
+                                User can see all products as well as just one by clicking on them
                             </li>
                             <li>
-                                Firebase authrntication enable.
+                                Can edit or add new product if logged in
                             </li>
                             <li>
-                                Dynamic data.
+                                Can sell products from details page.
+                            </li>
+                            <li>
+                                Real time update on every change
+                            </li>
+                            <li>
+                                Custom maintains every state changed by user.
+                            </li>
+                            <li>
+                                Updated filtering functions
+                            </li>
+                            <li>
+                                Updated updating products
+                            </li>
+                            <li>
+                                Interactive UX/UI
                             </li>
 
                             <div className="pt-3">
-                                <a className="btn me-3 btn-dark fw-bold" href="https://routing-folder.web.app/" target="_blank" rel="noopener noreferrer"><i class="fab fa-chrome text-warning"></i></a>
-                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/tour-the-world-client" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt  text-warning"></i></a>
-                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/tour-the-world-server" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://power-vision-live.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fab fa-chrome text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/redux-frontend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt  text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/redux-backend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-warning"></i></a>
                             </div>
                         </ul>
 
