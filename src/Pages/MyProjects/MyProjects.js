@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import donate from '../../images/donation camp.png'
-import power from '../../images/powervision.png';
-import tour from '../../images/rsz_tour.png';
+import game from '../../images/GamePlan.png';
+
 import tooth from '../../images/rsz_tooth.png';
 
 const MyProjects = () => {
@@ -11,6 +11,7 @@ const MyProjects = () => {
             <Container>
                 <h1 className="text-light fw-bold my-2 py-2">MY PROJECTS</h1>
                 <Row>
+                    {/* Donation Camp */}
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
                         <h3>Donation Camp</h3>
                         <ul>
@@ -55,29 +56,41 @@ const MyProjects = () => {
                         </ul>
 
                     </Col>
+
                     <Col md={4} sm={6} XS={12}>
                         <img className="w-100" src={donate} alt="" srcset="" />
                     </Col>
+                    {/* Donation Camp */}
+
+                    {/* Game Space*/}
+
                     <Col md={4} sm={6} XS={12}>
-                        <img className="w-100" src={power} alt="" srcset="" />
+                        <img className="w-100" src={game} alt="" srcset="" />
                     </Col>
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
-                        <h3>Power Vision</h3>
+                        <h3>Game Space</h3>
                         <ul>
                             <li>
-                                Fully build using Redux.
+                                Game Space is designed to provide a user-friendly interface for booking sports facilities.
                             </li>
                             <li>
-                                Custom Login Signup.
+                                User registration and authentication
                             </li>
                             <li>
-                                User can see all products as well as just one by clicking on them
+                                Facility booking with available time slots
+
                             </li>
                             <li>
-                                Can edit or add new product if logged in
+                                Viewing schedules for facilities
+
                             </li>
                             <li>
-                                Can sell products from details page.
+                                Managing user profiles and booking history
+
+                            </li>
+                            <li>
+
+                                Search functionality to filter facilities by name
                             </li>
                             <li>
                                 Real time update on every change
@@ -85,24 +98,23 @@ const MyProjects = () => {
                             <li>
                                 Custom maintains every state changed by user.
                             </li>
-                            <li>
-                                Updated filtering functions
-                            </li>
-                            <li>
-                                Updated updating products
-                            </li>
+
                             <li>
                                 Interactive UX/UI
                             </li>
 
                             <div className="pt-3">
-                                <a className="btn me-3 btn-dark fw-bold" href="https://power-vision-live.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fab fa-chrome text-warning"></i></a>
-                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/redux-frontend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt  text-warning"></i></a>
-                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/redux-backend" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://game-space-ten.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fab fa-chrome text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/game-space" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-alt  text-warning"></i></a>
+                                <a className="btn me-3 btn-dark fw-bold" href="https://github.com/saifmaamun/gameplan" target="_blank" rel="noopener noreferrer"><i class="fab fa-github text-warning"></i></a>
                             </div>
                         </ul>
 
                     </Col>
+                    {/* Game Space */}
+
+                    {/* Sweet Tooth */}
+
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
                         <h3>Sweeth Tooth</h3>
                         <ul>
@@ -132,6 +144,7 @@ const MyProjects = () => {
                     <Col md={4} sm={6} XS={12}>
                         <img className="w-100" src={tooth} alt="" srcset="" />
                     </Col>
+                    {/* Sweet Tooth */}
                 </Row>
             </Container>
         </Container>

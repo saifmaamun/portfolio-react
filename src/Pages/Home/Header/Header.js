@@ -13,7 +13,7 @@ const Header = () => {
                         <Nav.Link href="#myprojects">My Projects</Nav.Link>
                         <Nav.Link href="#contact">Contact Me</Nav.Link>
                         <Button className="btn btn-warning">
-                            <a className="text-decoration-none text-dark fw-bold" href="https://drive.google.com/file/d/1PfcHtS7FZEES5TZFg7yGK3gWJlAViR0E/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a>
+                            <a className="text-decoration-none text-dark fw-bold" href="https://drive.google.com/file/d/1u_-U1Iy-dMqy8n936y9MVX9DXH77PBk0/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a>
                         </Button>
                     </Nav>
                 </div>

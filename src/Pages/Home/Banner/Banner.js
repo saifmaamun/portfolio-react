@@ -17,7 +17,7 @@ const Banner = () => {
                     <Col className="p-5 my-5" md={8} sm={12} >
                         <h1>Hi, I'm <span className="text-secondary fw-bold">Saif Maamun</span></h1>
                         <h2>
-                            I'm a Junior{' '}
+                            I'm a {' '}
                             <span style={{ color: 'gray', fontWeight: 'bold' }}>
                                 {/* Style will be inherited from the parent element */}
                                 <Typewriter
@@ -37,7 +37,7 @@ const Banner = () => {
                     <Col className="mb-5" md={4} sm={12}>
 
                         <div >
-                            <img className="w-75" src={personalimage} alt="" srcset="" />
+                            <img className="w-75 rounded" src={personalimage} alt="" srcset="" />
                         </div>
                     </Col>
                 </Row>

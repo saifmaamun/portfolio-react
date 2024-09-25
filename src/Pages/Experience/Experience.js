@@ -8,7 +8,7 @@ const Experience = () => {
 
 
             <h1 className="text-light fw-bold container my-2 py-2">Experience</h1>
-            <Container className=" bg-warning my-3 p-5 my-5" >
+            <Container className=" bg-warning my-3 p-5 my-5 rounded" >
                 <Row>
                     <Col className="bg-warning my-auto p-3 rounded" md={8} sm={6} XS={12}>
                         <h2>Mern Stack Developer</h2>
